@@ -12,6 +12,10 @@ if (isset($_POST['submit'])){
         }else{
             echo "The isbn is not valid";
         }
+        //other way
+        //foreach($array_splitted[$i] * $i;{
+        //$total += $digit * $i;
+        //$i++;}
 
     }else{
         echo "This is not valid isbn";
