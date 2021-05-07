@@ -30,6 +30,8 @@
             <th>HEIGHT</th>
             <th>PUBLISHER</th>
             <th>EDIT</th>
+            <th>DELETE</th>
+
         </tr>
         </thead>
         <tbody>
@@ -57,11 +59,16 @@
             <td>350</td>
             <td>Happy Life</td>
             <td><a><A href="edit.php"> <i class="fas fa-edit"></i></a></td>
+            <td><a><A href="delete.php"> <i class="fas fa-trash-alt"></i></a></td>
+
         </tr>
 
 
         </tbody>
     </table>
+    <form action="create.php" method="post">
+        <p><input type="submit" name="submit" value="Insert New" /></p>
+    </form>
 </div>
 </body>
 </html>
