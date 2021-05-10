@@ -8,6 +8,22 @@ private $model;
 private $color;
 
     /**
+     * Car constructor.
+     * @param $make
+     * @param $model
+     * @param $color
+     */
+    public function __construct($make, $model, $color)
+    {
+        $this->make = $make;
+        $this->model = $model;
+        $this->color = $color;
+    }
+
+    public function start(){
+        echo 'Car Starting...';
+    }
+    /**
      * @return mixed
      */
     public function getMake()
