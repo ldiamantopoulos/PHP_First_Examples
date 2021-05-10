@@ -4,7 +4,7 @@
 $id = 1;
 try {
     $conn = new PDO('mysql:host=localhost;dbname=company;charset=utf8', 'root','12345');
-/   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ATTR_ERRMODE_EXCEPTION);
+   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ATTR_ERRMODE_EXCEPTION);
 
    $stmt = $conn->prepare('SELECT * FROM employees WHERE id = :id');
    $stmt->execute(array('id' => $id));
