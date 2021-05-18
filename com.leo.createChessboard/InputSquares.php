@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="EN">
 <head>
     <title>Chessboard</title>
     <link href="style.css" rel="stylesheet">
@@ -7,7 +7,7 @@
 <body>
 <form action="" method="post">
     <input type="number" name="gridsize" min="2" max="15" step="1" required>
-    <input type="submit" name="submit">
+    <input type="submit" name="submit" value='Press This'>
 </form>
 
 <?php
